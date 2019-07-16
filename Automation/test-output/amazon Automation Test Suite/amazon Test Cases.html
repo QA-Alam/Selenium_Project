@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>amazon Test Cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>12/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 13 09:48:49 EDT 2019</td>
+<td>Started on:</td><td>Sun Jul 14 20:10:33 EDT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>76 seconds (76427 ms)</td>
+<tr><td>Total time:</td><td>73 seconds (73381 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -103,8 +103,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace233271622", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace233271622'><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1560243060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1560243060'><pre>java.lang.NullPointerException
 	at com.excelFactory.Excelcreater.wtireContecnt(Excelcreater.java:49)
 	at com.smarttech.AmazonLogin.teardown(AmazonLogin.java:156)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -133,7 +133,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -144,37 +144,16 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test13()'><b>Test13</b><br>Test class: com.smarttech.AmazonLogin</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;LAPTOP-0DTB49BH&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\niger\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50319}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 930700391d45f5a14f8966159abd837c
-*** Element info: {Using=xpath, value=//*[@name=&apos;proceedToCheckout&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:423)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
 	at com.sun.proxy.$Proxy8.get(Unknown Source)
-	at com.smarttech.AmazonLogin.Test13(AmazonLogin.java:133)
+	at com.smarttech.AmazonLogin.Test13(AmazonLogin.java:135)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -200,38 +179,17 @@ Session ID: 930700391d45f5a14f8966159abd837c
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace873688017", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace873688017'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;LAPTOP-0DTB49BH&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\niger\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50319}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 930700391d45f5a14f8966159abd837c
-*** Element info: {Using=xpath, value=//*[@name=&apos;proceedToCheckout&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:423)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1556841942", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1556841942'><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
 	at com.sun.proxy.$Proxy8.get(Unknown Source)
-	at com.smarttech.AmazonLogin.Test13(AmazonLogin.java:133)
+	at com.smarttech.AmazonLogin.Test13(AmazonLogin.java:135)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -258,122 +216,8 @@ Session ID: 930700391d45f5a14f8966159abd837c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
-<tr>
-<td title='com.smarttech.AmazonLogin.Test13()'><b>Test13</b><br>Test class: com.smarttech.AmazonLogin</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;LAPTOP-0DTB49BH&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\niger\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50319}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 930700391d45f5a14f8966159abd837c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:286)
-	at amazon.extend.report.TestListener.onTestFailure(TestListener.java:62)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1388)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:633)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1843885967", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1843885967'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;LAPTOP-0DTB49BH&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\niger\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50319}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 930700391d45f5a14f8966159abd837c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy11.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:286)
-	at amazon.extend.report.TestListener.onTestFailure(TestListener.java:62)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1388)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:633)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>16</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -385,63 +229,63 @@ Session ID: 930700391d45f5a14f8966159abd837c
 <tr>
 <td title='com.smarttech.AmazonLogin.Test10()'><b>Test10</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>0</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>2</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test11()'><b>Test11</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>0</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>2</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test12()'><b>Test12</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>26</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>9</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test2()'><b>Test2</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>0</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>2</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test3()'><b>Test3</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>7</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>5</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test4()'><b>Test4</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
 <td>3</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test5()'><b>Test5</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>3</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>6</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test6()'><b>Test6</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>0</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>2</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test7()'><b>Test7</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>0</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>2</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test8()'><b>Test8</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>0</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>2</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.Test9()'><b>Test9</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>0</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>2</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 <tr>
 <td title='com.smarttech.AmazonLogin.setUp()'><b>setUp</b><br>Test class: com.smarttech.AmazonLogin</td>
 <td></td>
-<td>33</td>
-<td>com.smarttech.AmazonLogin@5e57643e</td></tr>
+<td>16</td>
+<td>com.smarttech.AmazonLogin@51b279c9</td></tr>
 </table><p>
 </body>
 </html>

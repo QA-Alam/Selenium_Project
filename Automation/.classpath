@@ -28,8 +28,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/niger/git/repository5/Automation/Driver/cucumber-extentsreport-1.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/niger/git/repository5/Automation/Driver/log4j-1.2.17-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/niger/git/repository5/Automation/Driver/ojdbc6-11.2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/niger/cucumber-extentsreport-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/niger/log4j-1.2.17-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/niger/ojdbc6-11.2.0.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
